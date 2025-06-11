@@ -1,3 +1,3 @@
-# family-tree-site
+# Test
 
-Initial repository setup for pr-poehali-dev/family-tree-site
+Initial repository setup for Test project
