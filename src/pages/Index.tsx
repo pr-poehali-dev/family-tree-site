@@ -39,60 +39,72 @@ const Index = () => {
           </h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="bg-blue-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Icon name="Zap" size={32} className="text-blue-600" />
+              <div className="flex items-center gap-4 mb-6">
+                <div className="bg-blue-100 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="Zap" size={32} className="text-blue-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-slate-900">Высокая производительность</h3>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-slate-900">Высокая производительность</h3>
               <p className="text-slate-600">
                 Обработка тысяч запросов в секунду с минимальной задержкой
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Icon name="Shield" size={32} className="text-green-600" />
+              <div className="flex items-center gap-4 mb-6">
+                <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="Shield" size={32} className="text-green-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-slate-900">Безопасность</h3>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-slate-900">Безопасность</h3>
               <p className="text-slate-600">
                 Встроенная защита от атак, шифрование данных и аутентификация
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="bg-purple-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Icon name="Settings" size={32} className="text-purple-600" />
+              <div className="flex items-center gap-4 mb-6">
+                <div className="bg-purple-100 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="Settings" size={32} className="text-purple-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-slate-900">Гибкая настройка</h3>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-slate-900">Гибкая настройка</h3>
               <p className="text-slate-600">
                 Легкая конфигурация под любые требования вашего проекта
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="bg-orange-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Icon name="BarChart3" size={32} className="text-orange-600" />
+              <div className="flex items-center gap-4 mb-6">
+                <div className="bg-orange-100 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="BarChart3" size={32} className="text-orange-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-slate-900">Мониторинг</h3>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-slate-900">Мониторинг</h3>
               <p className="text-slate-600">
                 Детальная аналитика и логирование всех операций в реальном времени
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="bg-cyan-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Icon name="Network" size={32} className="text-cyan-600" />
+              <div className="flex items-center gap-4 mb-6">
+                <div className="bg-cyan-100 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="Network" size={32} className="text-cyan-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-slate-900">Масштабируемость</h3>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-slate-900">Масштабируемость</h3>
               <p className="text-slate-600">
                 Легко масштабируется от стартапа до enterprise-решения
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="bg-red-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Icon name="Code" size={32} className="text-red-600" />
+              <div className="flex items-center gap-4 mb-6">
+                <div className="bg-red-100 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="Code" size={32} className="text-red-600" />
+                </div>
+                <h3 className="text-2xl font-bold text-slate-900">API первого класса</h3>
               </div>
-              <h3 className="text-2xl font-bold mb-4 text-slate-900">API первого класса</h3>
               <p className="text-slate-600">
                 Интуитивный REST API и подробная документация для разработчиков
               </p>
