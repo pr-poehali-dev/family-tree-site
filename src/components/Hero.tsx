@@ -5,7 +5,7 @@ const BG_URL = 'https://cdn.poehali.dev/projects/dcb315c7-025d-47aa-bd4d-ec8fbe4
 
 const Hero = () => {
   return (
-    <section className="relative bg-white text-slate-900 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white overflow-hidden">
       <div className="absolute inset-0 opacity-20">
         <img 
           src={BG_URL}
@@ -23,12 +23,12 @@ const Hero = () => {
               className="w-80 h-80 rounded-2xl shadow-2xl"
             />
           </div>
-          <p className="text-xl md:text-2xl text-slate-600 mb-4">
+          <p className="text-xl md:text-2xl text-blue-200 mb-4">
             Связываем ваши сервисы быстро и безопасно
           </p>
-          <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 px-4 py-2 rounded-full">
-            <Icon name="Pencil" size={20} className="text-blue-600" />
-            <span className="text-slate-700 font-medium">Проект в стадии проектирования</span>
+          <div className="inline-flex items-center gap-2 bg-blue-500/20 border border-blue-400/50 px-4 py-2 rounded-full backdrop-blur-sm">
+            <Icon name="Pencil" size={20} className="text-blue-300" />
+            <span className="text-blue-200 font-medium">Проект в стадии проектирования</span>
           </div>
         </div>
       </div>
