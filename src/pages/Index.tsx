@@ -103,29 +103,8 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Roadmap Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12 text-slate-900">
-              Дорожная карта проекта
-            </h2>
-            <div className="max-w-xl mx-auto">
-              {/* 2025 */}
-              <div className="bg-slate-50 p-8 rounded-xl text-center">
-                <div className="inline-flex items-center gap-3 mb-4">
-                  <div className="w-8 h-8 bg-blue-500 rounded-full"></div>
-                  <span className="text-2xl font-bold text-blue-600">2025</span>
-                </div>
-                <h3 className="text-3xl font-bold text-slate-900">Фаза проектирования</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* About Section */}
-      <section className="py-20 bg-slate-50">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-center mb-8 text-slate-900">
