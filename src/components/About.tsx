@@ -7,7 +7,7 @@ const About = () => {
             О проекте
           </h2>
           <p className="text-lg text-slate-600 mb-6 text-center leading-relaxed">
-            Ant Gateway — это современный API Gateway, созданный для упрощения управления микросервисной архитектурой. 
+            Bull Gateway — это современный API Gateway, созданный для упрощения управления микросервисной архитектурой. 
             Мы предоставляем мощные инструменты для маршрутизации, балансировки нагрузки и защиты ваших API.
           </p>
           <p className="text-lg text-slate-600 text-center leading-relaxed">

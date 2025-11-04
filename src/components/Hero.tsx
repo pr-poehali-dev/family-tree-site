@@ -1,6 +1,6 @@
 import Icon from '@/components/ui/icon';
 
-const LOGO_URL = 'https://cdn.poehali.dev/projects/dcb315c7-025d-47aa-bd4d-ec8fbe4f2d7b/files/32bf72e6-9eec-4092-8b7f-332326330ee4.jpg';
+const LOGO_URL = 'https://cdn.poehali.dev/projects/dcb315c7-025d-47aa-bd4d-ec8fbe4f2d7b/files/818c8f63-7e4d-4303-a7e0-f849f3115c94.jpg';
 const BG_URL = 'https://cdn.poehali.dev/projects/dcb315c7-025d-47aa-bd4d-ec8fbe4f2d7b/files/10f21cfe-ce6d-4e44-a330-d9a436d897cf.jpg';
 
 const Hero = () => {
@@ -19,11 +19,11 @@ const Hero = () => {
           <div className="mb-8 flex justify-center">
             <img 
               src={LOGO_URL}
-              alt="Ant Gateway Logo"
+              alt="Bull Gateway Logo"
               className="w-24 h-24 rounded-2xl shadow-2xl"
             />
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">AntGW</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">BullGW</h1>
           <p className="text-xl md:text-2xl text-blue-200 mb-4">
             Связываем ваши сервисы быстро и безопасно
           </p>
