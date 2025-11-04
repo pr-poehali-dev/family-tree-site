@@ -16,7 +16,13 @@ const Hero = () => {
       </div>
       <div className="container mx-auto px-4 py-32 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-
+          <div className="mb-8 flex justify-center">
+            <img 
+              src={LOGO_URL}
+              alt="Bull Gateway Logo"
+              className="w-32 h-32 rounded-2xl shadow-2xl"
+            />
+          </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6">BullGW</h1>
           <p className="text-xl md:text-2xl text-blue-200 mb-4">
             Связываем ваши сервисы быстро и безопасно
