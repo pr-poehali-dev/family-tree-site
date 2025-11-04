@@ -110,38 +110,14 @@ const Index = () => {
             <h2 className="text-4xl font-bold text-center mb-12 text-slate-900">
               Дорожная карта проекта
             </h2>
-            <div className="space-y-8">
+            <div className="max-w-xl mx-auto">
               {/* 2025 */}
-              <div className="relative pl-8 border-l-4 border-blue-500">
-                <div className="absolute -left-3 top-0 w-6 h-6 bg-blue-500 rounded-full"></div>
-                <div className="bg-slate-50 p-6 rounded-xl">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="text-sm font-bold text-blue-600 bg-blue-100 px-3 py-1 rounded-full">2025</span>
-                    <h3 className="text-2xl font-bold text-slate-900">Фаза проектирования</h3>
-                  </div>
+              <div className="bg-slate-50 p-8 rounded-xl text-center">
+                <div className="inline-flex items-center gap-3 mb-4">
+                  <div className="w-8 h-8 bg-blue-500 rounded-full"></div>
+                  <span className="text-2xl font-bold text-blue-600">2025</span>
                 </div>
-              </div>
-
-              {/* 2026 */}
-              <div className="relative pl-8 border-l-4 border-slate-300">
-                <div className="absolute -left-3 top-0 w-6 h-6 bg-slate-300 rounded-full"></div>
-                <div className="bg-slate-50 p-6 rounded-xl">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="text-sm font-bold text-slate-600 bg-slate-200 px-3 py-1 rounded-full">2026</span>
-                    <h3 className="text-2xl font-bold text-slate-900">Фаза проектирования</h3>
-                  </div>
-                </div>
-              </div>
-
-              {/* 2027 */}
-              <div className="relative pl-8 border-l-4 border-slate-300">
-                <div className="absolute -left-3 top-0 w-6 h-6 bg-slate-300 rounded-full"></div>
-                <div className="bg-slate-50 p-6 rounded-xl">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="text-sm font-bold text-slate-600 bg-slate-200 px-3 py-1 rounded-full">2027</span>
-                    <h3 className="text-2xl font-bold text-slate-900">Фаза проектирования</h3>
-                  </div>
-                </div>
+                <h3 className="text-3xl font-bold text-slate-900">Фаза проектирования</h3>
               </div>
             </div>
           </div>
