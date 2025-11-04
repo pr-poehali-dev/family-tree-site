@@ -1,6 +1,6 @@
 import Icon from '@/components/ui/icon';
 
-const LOGO_URL = 'https://cdn.poehali.dev/projects/dcb315c7-025d-47aa-bd4d-ec8fbe4f2d7b/files/818c8f63-7e4d-4303-a7e0-f849f3115c94.jpg';
+const LOGO_URL = 'https://cdn.poehali.dev/projects/dcb315c7-025d-47aa-bd4d-ec8fbe4f2d7b/files/9b03f318-6592-4fb9-9453-36f75cadd27c.jpg';
 const BG_URL = 'https://cdn.poehali.dev/projects/dcb315c7-025d-47aa-bd4d-ec8fbe4f2d7b/files/10f21cfe-ce6d-4e44-a330-d9a436d897cf.jpg';
 
 const Hero = () => {
