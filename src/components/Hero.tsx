@@ -5,7 +5,7 @@ const BG_URL = 'https://cdn.poehali.dev/projects/dcb315c7-025d-47aa-bd4d-ec8fbe4
 
 const Hero = () => {
   return (
-    <section className="relative bg-white text-slate-900 overflow-hidden">
+    <section className="relative bg-slate-50 text-slate-900 overflow-hidden">
       <div className="absolute inset-0 opacity-20">
         <img 
           src={BG_URL}
