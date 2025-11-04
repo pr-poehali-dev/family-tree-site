@@ -111,103 +111,36 @@ const Index = () => {
               Дорожная карта проекта
             </h2>
             <div className="space-y-8">
-              {/* Q1 2025 */}
+              {/* 2025 */}
               <div className="relative pl-8 border-l-4 border-blue-500">
                 <div className="absolute -left-3 top-0 w-6 h-6 bg-blue-500 rounded-full"></div>
                 <div className="bg-slate-50 p-6 rounded-xl">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="text-sm font-bold text-blue-600 bg-blue-100 px-3 py-1 rounded-full">Q1 2025</span>
+                    <span className="text-sm font-bold text-blue-600 bg-blue-100 px-3 py-1 rounded-full">2025</span>
                     <h3 className="text-2xl font-bold text-slate-900">Фаза проектирования</h3>
                   </div>
-                  <ul className="space-y-2 text-slate-600">
-                    <li className="flex items-start gap-2">
-                      <Icon name="CheckCircle2" size={20} className="text-blue-500 mt-0.5 flex-shrink-0" />
-                      <span>Разработка архитектуры системы</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Icon name="CheckCircle2" size={20} className="text-blue-500 mt-0.5 flex-shrink-0" />
-                      <span>Определение основных компонентов и модулей</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Icon name="CheckCircle2" size={20} className="text-blue-500 mt-0.5 flex-shrink-0" />
-                      <span>Выбор технологического стека</span>
-                    </li>
-                  </ul>
                 </div>
               </div>
 
-              {/* Q2 2025 */}
+              {/* 2026 */}
               <div className="relative pl-8 border-l-4 border-slate-300">
                 <div className="absolute -left-3 top-0 w-6 h-6 bg-slate-300 rounded-full"></div>
                 <div className="bg-slate-50 p-6 rounded-xl">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="text-sm font-bold text-slate-600 bg-slate-200 px-3 py-1 rounded-full">Q2 2025</span>
-                    <h3 className="text-2xl font-bold text-slate-900">Разработка MVP</h3>
+                    <span className="text-sm font-bold text-slate-600 bg-slate-200 px-3 py-1 rounded-full">2026</span>
+                    <h3 className="text-2xl font-bold text-slate-900">Фаза проектирования</h3>
                   </div>
-                  <ul className="space-y-2 text-slate-600">
-                    <li className="flex items-start gap-2">
-                      <Icon name="Circle" size={20} className="text-slate-400 mt-0.5 flex-shrink-0" />
-                      <span>Реализация базовой маршрутизации запросов</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Icon name="Circle" size={20} className="text-slate-400 mt-0.5 flex-shrink-0" />
-                      <span>Внедрение системы аутентификации</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Icon name="Circle" size={20} className="text-slate-400 mt-0.5 flex-shrink-0" />
-                      <span>Базовое логирование и мониторинг</span>
-                    </li>
-                  </ul>
                 </div>
               </div>
 
-              {/* Q3 2025 */}
+              {/* 2027 */}
               <div className="relative pl-8 border-l-4 border-slate-300">
                 <div className="absolute -left-3 top-0 w-6 h-6 bg-slate-300 rounded-full"></div>
                 <div className="bg-slate-50 p-6 rounded-xl">
                   <div className="flex items-center gap-3 mb-3">
-                    <span className="text-sm font-bold text-slate-600 bg-slate-200 px-3 py-1 rounded-full">Q3 2025</span>
-                    <h3 className="text-2xl font-bold text-slate-900">Расширение функционала</h3>
+                    <span className="text-sm font-bold text-slate-600 bg-slate-200 px-3 py-1 rounded-full">2027</span>
+                    <h3 className="text-2xl font-bold text-slate-900">Фаза проектирования</h3>
                   </div>
-                  <ul className="space-y-2 text-slate-600">
-                    <li className="flex items-start gap-2">
-                      <Icon name="Circle" size={20} className="text-slate-400 mt-0.5 flex-shrink-0" />
-                      <span>Балансировка нагрузки между сервисами</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Icon name="Circle" size={20} className="text-slate-400 mt-0.5 flex-shrink-0" />
-                      <span>Rate limiting и защита от DDoS</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Icon name="Circle" size={20} className="text-slate-400 mt-0.5 flex-shrink-0" />
-                      <span>Кэширование запросов</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* Q4 2025 */}
-              <div className="relative pl-8 border-l-4 border-slate-300">
-                <div className="absolute -left-3 top-0 w-6 h-6 bg-slate-300 rounded-full"></div>
-                <div className="bg-slate-50 p-6 rounded-xl">
-                  <div className="flex items-center gap-3 mb-3">
-                    <span className="text-sm font-bold text-slate-600 bg-slate-200 px-3 py-1 rounded-full">Q4 2025</span>
-                    <h3 className="text-2xl font-bold text-slate-900">Релиз v1.0</h3>
-                  </div>
-                  <ul className="space-y-2 text-slate-600">
-                    <li className="flex items-start gap-2">
-                      <Icon name="Circle" size={20} className="text-slate-400 mt-0.5 flex-shrink-0" />
-                      <span>Полная документация API</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Icon name="Circle" size={20} className="text-slate-400 mt-0.5 flex-shrink-0" />
-                      <span>Панель администрирования</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Icon name="Circle" size={20} className="text-slate-400 mt-0.5 flex-shrink-0" />
-                      <span>Публичный релиз и поддержка сообщества</span>
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
