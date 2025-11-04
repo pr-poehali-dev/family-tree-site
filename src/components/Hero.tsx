@@ -5,16 +5,8 @@ const BG_URL = 'https://cdn.poehali.dev/projects/dcb315c7-025d-47aa-bd4d-ec8fbe4
 
 const Hero = () => {
   return (
-    <section className="relative bg-slate-50 text-slate-900 overflow-hidden">
-      <div className="absolute inset-0 opacity-20">
-        <img 
-          src={BG_URL}
-          alt="Background"
-          className="w-full h-full object-cover"
-          loading="lazy"
-        />
-      </div>
-      <div className="container mx-auto px-4 py-32 relative z-10">
+    <section className="py-20 bg-slate-50">
+      <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8 flex justify-center">
             <img 
