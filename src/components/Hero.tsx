@@ -1,6 +1,6 @@
 import Icon from '@/components/ui/icon';
 
-const LOGO_URL = 'https://cdn.poehali.dev/projects/dcb315c7-025d-47aa-bd4d-ec8fbe4f2d7b/files/9db62e31-f8c2-4374-9acc-3b0e2e7bd1fd.jpg';
+const LOGO_URL = 'https://cdn.poehali.dev/projects/dcb315c7-025d-47aa-bd4d-ec8fbe4f2d7b/files/40064e3a-0e3f-42a9-91d7-d849534be702.jpg';
 const BG_URL = 'https://cdn.poehali.dev/projects/dcb315c7-025d-47aa-bd4d-ec8fbe4f2d7b/files/1d93792a-ceb8-4718-8bd4-15a52b9d44ca.jpg';
 
 const Hero = () => {
@@ -23,7 +23,6 @@ const Hero = () => {
               className="w-80 h-80 rounded-2xl shadow-2xl"
             />
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">BullGW</h1>
           <p className="text-xl md:text-2xl text-blue-200 mb-4">
             Связываем ваши сервисы быстро и безопасно
           </p>
