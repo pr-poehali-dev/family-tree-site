@@ -17,7 +17,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-24 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
 
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">BullGW</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">Bull Gateway</h1>
           <p className="text-xl md:text-2xl text-blue-200 mb-4">
             Связываем ваши сервисы быстро и безопасно
           </p>
