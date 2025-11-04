@@ -23,7 +23,7 @@ const Index = () => {
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">AntGW</h1>
             <p className="text-xl md:text-2xl text-blue-200 mb-4">
-              Современное решение для управления API и микросервисами
+              Современное решение для управления микросервисами
             </p>
             <div className="inline-flex items-center gap-2 bg-blue-500/20 border border-blue-400/50 px-4 py-2 rounded-full backdrop-blur-sm">
               <Icon name="Pencil" size={20} className="text-blue-300" />
