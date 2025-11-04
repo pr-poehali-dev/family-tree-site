@@ -21,9 +21,7 @@ const Index = () => {
                 className="w-24 h-24 rounded-2xl shadow-2xl"
               />
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              ant gateway
-            </h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">AntGW</h1>
             <p className="text-xl md:text-2xl text-blue-200 mb-8">
               Современное решение для управления API и микросервисами
             </p>
