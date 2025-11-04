@@ -43,7 +43,7 @@ const Index = () => {
                 <div className="bg-blue-100 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Icon name="Zap" size={32} className="text-blue-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900">Высокая производительность</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-slate-900">Высокая производительность</h3>
               </div>
               <p className="text-slate-600">
                 Обработка тысяч запросов в секунду с минимальной задержкой
@@ -55,7 +55,7 @@ const Index = () => {
                 <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Icon name="Shield" size={32} className="text-green-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900">Безопасность</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-slate-900">Безопасность</h3>
               </div>
               <p className="text-slate-600">
                 Встроенная защита от атак, шифрование данных и аутентификация
@@ -67,7 +67,7 @@ const Index = () => {
                 <div className="bg-purple-100 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Icon name="Settings" size={32} className="text-purple-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900">Гибкая настройка</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-slate-900">Гибкая настройка</h3>
               </div>
               <p className="text-slate-600">
                 Легкая конфигурация под любые требования вашего проекта
@@ -79,7 +79,7 @@ const Index = () => {
                 <div className="bg-orange-100 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Icon name="BarChart3" size={32} className="text-orange-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900">Мониторинг</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-slate-900">Мониторинг</h3>
               </div>
               <p className="text-slate-600">
                 Детальная аналитика и логирование всех операций в реальном времени
@@ -91,7 +91,7 @@ const Index = () => {
                 <div className="bg-cyan-100 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Icon name="Network" size={32} className="text-cyan-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900">Масштабируемость</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-slate-900">Масштабируемость</h3>
               </div>
               <p className="text-slate-600">
                 Легко масштабируется от стартапа до enterprise-решения
@@ -103,7 +103,7 @@ const Index = () => {
                 <div className="bg-red-100 w-16 h-16 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Icon name="Code" size={32} className="text-red-600" />
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900">API первого класса</h3>
+                <h3 className="text-xl md:text-2xl font-bold text-slate-900">API первого класса</h3>
               </div>
               <p className="text-slate-600">
                 Интуитивный REST API и подробная документация для разработчиков
