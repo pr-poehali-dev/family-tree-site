@@ -20,7 +20,7 @@ const Hero = () => {
             <img 
               src={LOGO_URL}
               alt="Bull Gateway Logo"
-              className="w-96 h-96 rounded-2xl shadow-2xl"
+              className="w-80 h-80 rounded-2xl shadow-2xl"
             />
           </div>
           <p className="text-xl md:text-2xl text-blue-200 mb-4">
