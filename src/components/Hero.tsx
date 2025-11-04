@@ -14,7 +14,7 @@ const Hero = () => {
           loading="lazy"
         />
       </div>
-      <div className="container mx-auto px-4 py-40 relative z-10">
+      <div className="container mx-auto px-4 py-24 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8 flex justify-center">
             <img 
